@@ -98,10 +98,10 @@ This application allows users to:
    php artisan make:filament-user
 
 
-Follow the prompts to create a user (e.g., email: `admin@example.com`, password: `password`).
+Follow the prompts to create a user (e.g., email: `test0011220@gmail.com`, password: `admin`).
 - Visit `/admin` and log in with the admin credentials.
 - Manage properties and bookings (create, edit, delete).
-- See screenshots: 
+- See screenshots: [Filament Properties](screenshots/filament-properties.png), [Filament Bookings](screenshots/filament-bookings.png).
 
 # Features
 
@@ -118,8 +118,8 @@ Follow the prompts to create a user (e.g., email: `admin@example.com`, password:
 - **Dashboard**: ![Dashboard](screenshots/dashboard.png)
 - **Property Listing**: ![Property Listing](screenshots/properties.png)
 - **Booking Form**: ![Booking Form](screenshots/booking-form.png)
-- **Filament Admin - Properties**:
-- **Filament Admin - Bookings**: 
+- **Filament Admin - Properties**: ![Filament Properties](screenshots/filament-properties.png)
+- **Filament Admin - Bookings**: ![Filament Bookings](screenshots/filament-bookings.png)
 ---
 
 **Developed by MonsefRH**
