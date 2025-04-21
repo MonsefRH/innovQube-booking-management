@@ -5,11 +5,12 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PropertyController;
 use App\Http\Controllers\BookingController;
 
-Route::get('/', function () {
-    return view('dashboard');
-});
+
 
 Route::get('/dashboard', [PropertyController::class, 'dashboard'])
+    ->middleware(['auth', 'verified'])
+    ->name('dashboard');
+Route::get('/', [PropertyController::class, 'dashboard'])
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
 
